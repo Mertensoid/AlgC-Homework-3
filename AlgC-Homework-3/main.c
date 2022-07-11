@@ -231,7 +231,7 @@ void solution4() {
     
     printf("4. Insertion sort.\n");
     int insertionDifficulty = MaxN * MaxN;
-    printf("Estimated number of operations: %d\n", choiseDifficulty);
+    printf("Estimated number of operations: %d\n", insertionDifficulty);
     int b[15] = {5, 19, 3, 16, 34, 35, 21, 345, 34, 12, 5, 6, 4, 3, 67};
     printf("Operations - %d\n", insertionSort(b));
     printArr(a);
